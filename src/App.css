@@ -4,7 +4,7 @@ body {
 
 header {
   text-align: center;
-font-family: 'Alexandria', sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 40px;
   margin-top: 10px;
   color: rgba(230, 219, 138, 0.938);
@@ -13,6 +13,6 @@ font-family: 'Alexandria', sans-serif;
 
 @media (max-width: 576px) {
   header {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
