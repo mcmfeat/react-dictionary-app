@@ -1,0 +1,11 @@
+.Result p {
+  margin: 0 auto;
+  display: block;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: none;
+  background-color: rgba(194, 194, 194, 0.507);
+  max-width: 80%;
+}
