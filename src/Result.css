@@ -1,11 +1,31 @@
+h4 {
+  text-align: center;
+  font-family: "Alexandria", sans-serif;
+  text-decoration: underline;
+  color: rgba(230, 219, 138, 0.938);
+  font-size: 38px;
+}
+
 .Result p {
   margin: 0 auto;
   display: block;
+  padding: 10px;
   color: black;
-  font-size: 24px;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: none;
-  background-color: rgba(194, 194, 194, 0.507);
+  background-color: rgba(255, 255, 255, 0.507);
   max-width: 80%;
+}
+
+@media (max-width: 576px) {
+  h4 {
+    margin: 10px;
+  }
+
+  .Result p {
+    font-size: 16px;
+    max-width: 90%;
+  }
 }
