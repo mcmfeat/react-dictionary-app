@@ -9,13 +9,6 @@ h6 {
   text-shadow: 2px 2px 2px rgba(167, 167, 167, 0.534);
 }
 
-/* .Meaning {
-  margin: 0 auto;
-  display: block;
-  color: black;
-  font-size: 18px;
-} */
-
 @media (max-width: 576px) {
   h6 {
     font-size: 16px;
