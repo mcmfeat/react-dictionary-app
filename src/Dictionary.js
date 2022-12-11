@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Result from "./Result";
+import Results from "./Results";
 
 import "./Form.css";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   let [keyword, setKeyword] = useState("");
-  let [result, setResult] = useState(null);
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    setResult(response.data[0]);
+    setResults(response.data[0]);
   }
 
   function search(event) {
@@ -22,6 +22,7 @@ export default function Dictionary() {
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
   }
+  
   return (
     <div className="Dictionary">
       <form onSubmit={search} autoComplete="off">
@@ -31,11 +32,10 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
         <button>
-          {" "}
           <i className="fa-solid fa-magnifying-glass" id="search-button"></i>
         </button>
       </form>
-      <Result result={result} />
+      <Results results={results} />
     </div>
   );
 }
