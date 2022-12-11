@@ -3,10 +3,12 @@ form {
 }
 
 input {
+  width: 25%;
+    font-size: 16px;
   border-radius: 25px;
   border: #f8f9fa;
-  line-height: 25px;
-  opacity: 0.5;
+  line-height: 28px;
+  opacity: 0.7;
   padding-left: 10px;
 }
 
