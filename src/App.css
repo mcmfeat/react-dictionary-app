@@ -1,5 +1,6 @@
 body {
-  background-image: url(../images/letters_1.jpg);
+  background-image: url(../images/scrabble_2.jpg);
+  
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   font-size: 40px;
   margin-top: 10px;
   color: rgba(230, 219, 138, 0.938);
-  text-shadow: 2px 2px 2px rgb(119, 136, 153);
+  text-shadow: 2px 2px 2px rgb(70, 80, 90);
 }
 
 @media (max-width: 576px) {

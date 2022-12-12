@@ -9,23 +9,21 @@ console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
-        <h4>{props.results.word}</h4>
-
-        {props.results.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <Phonetic phonetic={phonetic} />
-            </div>
-          );
-        })}
-
+        <section>
+          <h4>{props.results.word}</h4>
+          {props.results.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
+            );
+          })}
+        </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
-              <p>
-                <Meaning meaning={meaning} />
-              </p>
-            </div>
+            <section key={index}>
+              <Meaning meaning={meaning} />
+            </section>
           );
         })}
       </div>
