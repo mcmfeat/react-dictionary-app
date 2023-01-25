@@ -4,7 +4,7 @@ form {
 
 input {
   width: 30%;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 25px;
   border: #f8f9fa;
   line-height: 28px;
@@ -13,14 +13,14 @@ input {
 }
 
 button {
-  background: rgba(230, 219, 138, 0.938);
+  background: rgba(230, 219, 138, 0.7);
   color: #f8f9fa;
   font-size: 14px;
   line-height: 14px;
   padding: 8px;
   margin: 5px;
   border-radius: 100%;
-  border: 1px solid rgba(230, 219, 138, 0.938);
+  border: 1px solid rgba(230, 219, 138, 0.7);
   transition: all 200ms ease;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -31,7 +31,7 @@ button:hover {
 
 @media (max-width: 576px) {
   form {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   input {

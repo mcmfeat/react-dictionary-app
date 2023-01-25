@@ -2,13 +2,14 @@ h4 {
   text-align: center;
   font-family: "Alexandria", sans-serif;
   text-decoration: underline;
-  color: rgba(230, 219, 138, 0.938);
-  font-size: 38px;
+  color: rgba(230, 219, 138);
+  font-size: 36px;
   margin-bottom: 5px;
 }
 
 @media (max-width: 576px) {
   h4 {
     margin: 10px;
+    font-size: 30px;
   }
 }

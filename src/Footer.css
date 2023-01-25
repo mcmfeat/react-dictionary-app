@@ -1,8 +1,9 @@
 .Footer p {
   text-align: center;
   font-size: 14px;
-  color: rgba(63, 63, 63, 0.8);
- margin: 30px auto;
+  color: rgba(230, 219, 138, 0.8);
+  text-shadow: 1px 1px 1px rgb(70, 80, 90);
+  margin: 30px auto;
   display: block;
   font-style: normal;
   max-width: 60%;
@@ -10,10 +11,10 @@
 }
 
 .Footer a {
-  color: rgba(63, 63, 63);
+  color: rgba(230, 219, 138, 0.8);
 }
 
 a:hover {
-  color: rgba(230, 219, 138, 0.938);
-   cursor: pointer;
+  color: rgba(83, 83, 83, 0.7);
+  cursor: pointer;
 }

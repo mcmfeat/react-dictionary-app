@@ -6,11 +6,11 @@
 .Synonyms li {
   font-size: 14px;
   display: inline-block;
-   line-height: 1;
+  line-height: 1;
 }
 
 @media (max-width: 576px) {
-.Synonyms li {
+  .Synonyms li {
     font-size: 13px;
   }
 }
